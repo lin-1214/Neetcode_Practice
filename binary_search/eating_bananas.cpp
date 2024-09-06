@@ -19,7 +19,7 @@ public:
                 tmp += ceil(static_cast< float >(piles[i]) / mid);
             }
 
-            if (tmp < h) {
+            if (tmp <= h) {
                 r = mid - 1;
                 res = mid;
             } else {
